@@ -18,9 +18,9 @@ app.post('/bfhl', (req, res) => {
 
         const response = {
             "is_success": true,
-            "user_id": "Harsha_vardhan_Akili_778",  // Replace with actual user ID
-            "email": "akhilharsha78@gmail.com",  // Replace with actual email
-            "roll_number": "21BCE5353",  // Replace with actual roll number
+            "user_id": "Harsha_vardhan_Akili_778",  
+            "email": "akhilharsha78@gmail.com",  
+            "roll_number": "21BCE5353", 
             "numbers": numbers,
             "alphabets": alphabets,
             "highest_lowercase_alphabet": highestLowercaseAlphabet
