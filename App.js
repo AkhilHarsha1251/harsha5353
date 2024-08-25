@@ -11,7 +11,7 @@ const App = () => {
     try {
       const response = await axios.post('http://localhost:3000/bfhl', { data: JSON.parse(inputData) });
       setResponseData(response.data);
-      setSelectedFilters([]); // Reset filters on new submission
+      setSelectedFilters([]); 
       setErrorMessage(null);
     } catch (error) {
       if (error.response && error.response.data) {
